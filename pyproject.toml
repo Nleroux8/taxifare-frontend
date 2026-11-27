@@ -1,7 +1,7 @@
 [project]
 name = "taxifare-frontend"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Streamlit front-end for the Taxifare project"
 readme = "README.md"
 requires-python = ">=3.12.9"
 dependencies = [
