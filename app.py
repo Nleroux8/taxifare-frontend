@@ -27,7 +27,7 @@ do_latitude = st.number_input('Insert your drop-off latitude', 40.0, 41.0, 40.75
 passenger_count = st.slider('Select passenger count', 1, 6, 2, 1)
 
 
-api_url = 'http://127.0.0.1:8000/predict'
+api_url = st.secrets['API_URL']
 
 params = {
     'pickup_datetime': date_time,
